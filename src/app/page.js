@@ -62,7 +62,7 @@ export default function Home() {
               placeholder="Nombre"
               value={newItem.name}
               onChange={(e) => setNewItem({ ...newItem, name: e.target.value })}
-              className="w-full border border-gray-300 rounded px-3 py-2 mb-3"
+              className="w-full border text-white border-gray-300 rounded px-3 py-2 mb-3"
             />
             <input
               type="text"
@@ -74,7 +74,7 @@ export default function Home() {
             <div className="flex justify-end gap-2">
               <button
                 onClick={() => setShowModal(false)}
-                className="px-4 py-2 bg-red-600 rounded hover:bg-gray-400"
+                className="px-4 py-2 bg-red-600 rounded hover:bg-gray-400 text-white"
               >
                 Cancelar
               </button>
