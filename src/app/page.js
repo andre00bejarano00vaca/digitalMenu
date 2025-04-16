@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       {showModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-opacity-50 flex items-center justify-center z-50">
           <div className="p-6 rounded shadow-md w-full max-w-md">
             <h2 className="text-xl font-bold mb-4">Añadir nuevo servicio</h2>
             <input
