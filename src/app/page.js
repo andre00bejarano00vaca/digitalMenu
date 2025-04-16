@@ -54,9 +54,9 @@ export default function Home() {
       </div>
 
       {showModal && (
-        <div className="fixed inset-0 bg-opacity-50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="p-6 rounded shadow-md w-full max-w-md">
-            <h2 className="text-xl font-bold mb-4">Añadir nuevo servicio</h2>
+            <h2 className="text-xl text-white font-bold mb-4">Añadir nuevo servicio</h2>
             <input
               type="text"
               placeholder="Nombre"
@@ -69,7 +69,7 @@ export default function Home() {
               placeholder="URL"
               value={newItem.path}
               onChange={(e) => setNewItem({ ...newItem, path: e.target.value })}
-              className="w-full border border-gray-300 rounded px-3 py-2 mb-4"
+              className="w-full text-white border border-gray-300 rounded px-3 py-2 mb-4"
             />
             <div className="flex justify-end gap-2">
               <button
