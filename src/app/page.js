@@ -15,7 +15,7 @@ export default function Home() {
     { name: 'Datarhei Restreamer', path: 'http://190.181.59.134:40000/' },
     { name: 'Flussonic Digital', path: 'http://dtc.tvmediaonline.net:90/admin/#/' },
   ])
-
+  //hola
   const [showModal, setShowModal] = useState(false)
   const [newItem, setNewItem] = useState({ name: '', path: '' })
 
