@@ -6,14 +6,14 @@ export default function Home() {
   const [menuItems, setMenuItems] = useState([
     { name: 'Proxmox', path: 'https://190.181.59.134:50010' },
     { name: 'Stocky-Icon Filtros', path: 'https://190.181.59.134:60200/login' },
-    { name: 'Stocky-Icon Radios', path: 'https://190.181.59.134:60300/login' },
-    { name: 'Stocky-Icon Dtf', path: 'https://190.181.59.134:60400/login' },
-    { name: 'Azuracast', path: 'https://190.181.59.134:60010/login' },
-    { name: 'Icecast', path: 'https://190.181.59.134:30050/' },
-    { name: 'Snipe-IT', path: 'https://190.181.59.134:50020/' },
+    { name: 'Stocky-Icon Radios', path: 'http://190.181.59.134:60300/login' },
+    { name: 'Stocky-Icon Dtf', path: 'http://190.181.59.134:60400/login' },
+    { name: 'Azuracast', path: 'http://190.181.59.134:60010/login' },
+    { name: 'Icecast', path: 'http://190.181.59.134:30050/' },
+    { name: 'Snipe-IT', path: 'http://190.181.59.134:50020/' },
     { name: 'Nube Digital', path: 'https://digitaltelecom.online/index.php/login?clear=1' },
-    { name: 'Datarhei Restreamer', path: 'https://190.181.59.134:40000/' },
-    { name: 'Flussonic Digital', path: 'https://drc.tvmediaonline.net:90/admin/#/' },
+    { name: 'Datarhei Restreamer', path: 'http://190.181.59.134:40000/' },
+    { name: 'Flussonic Digital', path: 'http://dtc.tvmediaonline.net:90/admin/#/' },
   ])
 
   const [showModal, setShowModal] = useState(false)
